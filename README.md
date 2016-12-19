@@ -14,7 +14,7 @@
     4. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/fourth_query.sql) который выводит статистику по продуктам, какой из товаров сколько раз заказали
 
 ### Схема
-![draw](https://github.com/trueillum/dbms-task/blob/master/src/gameshop.svg)
+![draw](https://cdn.rawgit.com/trueillum/dbms-task/master/src/gameshop.svg)
 ### Описание схемы:
 Основной сущностью являются товары (products);
 У товара есть уникальный код, по которому можно найти тип товара, его цену и название товара. А также содержится ячейка, предназначенная для быстрого определения типа товара (type). Товары делятся на три категории игры, консоли, аксессуары (games, consoles, accessories). У каждой сущности товара должен быть свой уникальный тип.
