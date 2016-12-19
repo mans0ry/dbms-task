@@ -1,4 +1,5 @@
 # Лабораторная работа по теме:
+
 ## "Системы управления базами данных"
 ---
 ### Задание:
@@ -7,10 +8,10 @@
 3. Создать [запрос](https://github.com/trueillum/dbms-task/blob/master/creation.sql), который автоматически генерировал схему
 4. Создать [запрос](https://github.com/trueillum/dbms-task/blob/master/data_insert.sql), который заполняет схему данными
 5. Протестировать базу на работоспособность запросами
-    1. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/query.sql) который возвращает список покупателей, которые заказали все существующие игры (срез данных)
-    2. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/third_query.sql) который отображает продукты которые не были заказаны (JOIN)
+    1. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/first_query.sql) который возвращает список покупателей, которые заказали все существующие игры (срез данных)
+    2. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/second_query.sql) который отображает продукты которые не были заказаны (JOIN)
     3. Запрос который отображает тех покупателей которые ничего не заказали (JOIN)
-    4. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/second_query.sql) который выводит статистику по продуктам, какой из товаров сколько раз заказали
+    4. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/fourth_query.sql) который выводит статистику по продуктам, какой из товаров сколько раз заказали
 
 ### Схема
 ![draw](https://cdn.rawgit.com/trueillum/dbms-task/master/src/gameshop.svg)

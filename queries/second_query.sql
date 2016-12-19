@@ -1,5 +1,5 @@
-select sum(op.amount) as summa, p.name as name
-from order_products op, products p
-where op.id = p.id
-group by p.id
-order by summa;
+select p.name
+from order_products o
+right join products p
+on o.id = p.id
+where o.id is NULL
