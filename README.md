@@ -1,20 +1,20 @@
 # Лабораторная работа по теме:
 
 ## "Системы управления базами данных"
----
+
 ### Задание:
 1. Составить принципиальную схему
 2. По схеме составить описание
 3. Создать [запрос](https://github.com/trueillum/dbms-task/blob/master/creation.sql), который автоматически генерировал схему
 4. Создать [запрос](https://github.com/trueillum/dbms-task/blob/master/data_insert.sql), который заполняет схему данными
 5. Протестировать базу на работоспособность запросами
-    1. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/first_query.sql) который возвращает список покупателей, которые заказали все существующие игры (срез данных)
+    1. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/first_query.sql) который возвращает список покупателей, которые заказали все существующие игры (срез данных с помощью exists, без помощи exists [тут](https://github.com/trueillum/dbms-task/blob/master/queries/first_query_add.sql))
     2. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/second_query.sql) который отображает продукты которые не были заказаны (JOIN)
     3. Запрос который отображает тех покупателей которые ничего не заказали (JOIN)
     4. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/fourth_query.sql) который выводит статистику по продуктам, какой из товаров сколько раз заказали
 
 ### Схема
-![draw](https://cdn.rawgit.com/trueillum/dbms-task/master/src/gameshop.svg)
+![draw](https://github.com/trueillum/dbms-task/blob/master/src/gameshop.svg)
 ### Описание схемы:
 Основной сущностью являются товары (products);
 У товара есть уникальный код, по которому можно найти тип товара, его цену и название товара. А также содержится ячейка, предназначенная для быстрого определения типа товара (type). Товары делятся на три категории игры, консоли, аксессуары (games, consoles, accessories). У каждой сущности товара должен быть свой уникальный тип.

@@ -1,5 +1,5 @@
-select p.name
-from order_products o
-right join products p
-on o.id = p.id
-where o.id is NULL
+SELECT p.name
+FROM order_products o
+    RIGHT JOIN products p
+        ON o.id = p.id
+WHERE o.id IS NULL

@@ -1,5 +1,7 @@
-select sum(op.amount) as summa, p.name as name
-from order_products op, products p
-where op.id = p.id
-group by p.id
-order by summa;
+SELECT
+    sum(op.amount) AS summa,
+    p.name         AS name
+FROM order_products op, products p
+WHERE op.id = p.id
+GROUP BY p.id
+ORDER BY summa;
