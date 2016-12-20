@@ -10,7 +10,7 @@
 5. Протестировать базу на работоспособность запросами
     1. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/first_query.sql) который возвращает список покупателей, которые заказали все существующие игры (срез данных с помощью exists, без помощи exists [тут](https://github.com/trueillum/dbms-task/blob/master/queries/first_query_add.sql))
     2. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/second_query.sql) который отображает продукты которые не были заказаны (JOIN)
-    3. Запрос который отображает тех покупателей которые ничего не заказали (JOIN)
+    3. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/third_query.sql) который отображает тех покупателей которые ничего не заказали (JOIN)
     4. [Запрос](https://github.com/trueillum/dbms-task/blob/master/queries/fourth_query.sql) который выводит статистику по продуктам, какой из товаров сколько раз заказали
 
 ### Схема
